@@ -1,0 +1,24 @@
+{
+  "name": "monorepo-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*",
+    "play",
+    "docs"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "dev": "pnpm -C play dev",
+    "docs:dev": "pnpm run -C docs dev",
+    "docs:build": "pnpm run -C docs build",
+    "docs:serve": "pnpm run -C docs serve"
+  },
+  "keywords": [],
+  "author": "kuizuo",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 16"
+  }
+}

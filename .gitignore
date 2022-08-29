@@ -1,0 +1,3 @@
+# Package Manager
+node_modules
+.pnpm-debug.log*

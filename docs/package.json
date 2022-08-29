@@ -1,0 +1,16 @@
+{
+  "name": "@demo/docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "build": "node index.js",
+    "serve": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {}
+}
